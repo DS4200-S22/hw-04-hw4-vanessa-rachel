@@ -20,13 +20,9 @@ function circle2Unhovered() {
 function circle3Clicked() {
     console.log("Circle 3 was clicked"); 
     let circle = document.getElementById("circle3");
-    console.log(circle.style.opacity);
-    if (circle.style.opacity == 0) {
-        circle.style.opacity = 1;
-        console.log("first case", circle.style.opacity);
-    }
-    else {
-        circle.style.opacity = 0;
-        console.log("second case", circle.style.opacity); 
+    if (circle.style.opacity == "0") {
+        circle.style.opacity = "1";
+    } else {
+        circle.style.opacity = "0";
     }
 }

@@ -8,7 +8,7 @@ h1 {
 
 #circle1 {
     fill: lightblue;
-    stroke:black;
+    stroke: black;
 }
 
 #circle2 {
@@ -17,8 +17,7 @@ h1 {
 
 #circle3 {
     fill: plum;
-    stroke:black;
-    opacity: 1;
+    stroke: black;
 }
 
 #circle1Text {
