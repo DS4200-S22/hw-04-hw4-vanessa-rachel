@@ -2,9 +2,13 @@ body {
     font-family: Arial;
 }
 
+h1 {
+    text-align: center;
+}
+
 #circle1 {
     fill: lightblue;
-    border: thick solid black;
+    stroke:black;
 }
 
 #circle2 {
@@ -13,5 +17,17 @@ body {
 
 #circle3 {
     fill: plum;
-    border: thick solid black;
+    stroke:black;
+    opacity: 1;
+}
+
+#circle1Text {
+    fill: black;
+    font-size: 5px;
+}
+
+.shapes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
