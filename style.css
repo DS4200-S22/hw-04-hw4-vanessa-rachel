@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+}
+
+#circle1 {
+    fill: lightblue;
+    border: thick solid black;
+}
+
+#circle2 {
+    fill: lightgreen;
+}
+
+#circle3 {
+    fill: plum;
+    border: thick solid black;
+}
